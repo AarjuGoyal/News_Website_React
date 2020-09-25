@@ -1,0 +1,153 @@
+.news_card {
+	width: 97%;
+	margin: 20px;
+	padding: 20px;
+
+	/* height: 20rem; */
+}
+.news_card_image {
+	/* width: 20%; */
+	/* height: 20%; */
+	float: left;
+	position: relative;
+	margin-right: 15px;
+	padding: 10px;
+	border: 1.5px solid rgb(224, 222, 222);
+	border-radius: 5px;
+	
+}
+
+.news_deck_card {
+	width: 20%;
+	margin: 20px;
+	padding: 20px;
+	height: auto;
+	background-color: blue;
+	
+	/* height: 20rem; */
+}
+.news_deck_card_image {
+	/* width: inherit; */
+	/* height: 70%; */
+	float: left;
+	position: relative;
+	margin-right: 15px;
+	padding: 5px;
+	border: 1.5px solid rgb(224, 222, 222);
+	border-radius: 5px;
+}
+
+.NavBar {
+	background-image: linear-gradient(to right, #23315c, #4663b9);
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+	opacity: 0.5;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: white;
+	opacity: 1 !important;
+}
+.nav-link:hover {
+	color: white;
+	opacity: 1 !important;
+}
+
+.BookMark_Toggle {
+	color: white;
+	position: absolute;
+	right: 5%;
+	display: inline;
+}
+.react-toggle {
+	margin-bottom: -0.35rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	/* background-color: blue; */
+}
+.NewsToggle.react-toggle--checked .react-toggle-track {
+	background-color: #1e14ac;
+}
+.NewsToggle.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+	background-color: rgb(49, 31, 218);
+}
+/* .ShareModal {
+    position: relative;
+    top: 20%;
+    left: 40%;
+	width:32em;
+	height: 15em;
+    background-color: white;
+  } */
+
+@media only screen and (min-width: 601px) {
+.ShareModal {
+	position: absolute;
+        top: 50%;
+		left: 50%;
+		width:inherit;
+		height: 15em;
+		padding: 1em;
+		transform: translate(-50%, -50%) !important;
+		background-color: white;
+}
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+  }
+}
+@media only screen and (max-width: 600px) {
+	.ShareModal {
+		position: relative;
+			top: 25%;
+			left: 50%;
+			width:25em;
+			height: auto;
+			padding: 1em;
+			transform: translate(-50%, -50%) !important;
+			background-color:white;
+	}
+	.Overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.3);
+	  }
+	}
+
+  i {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+  }
+  
+  .right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+  }
+/*  */
+/* .news_article_display {
+	/* margin: 0 auto; */
+  	/* width: 25%;} */
